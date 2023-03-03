@@ -10,7 +10,7 @@ Add the Google Fonts you want, remove the ones you don't.
 
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Hepta+Slab|Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Phudu:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
@@ -352,7 +352,7 @@ p {
   align-items: center;
   flex-direction: column;
   padding: 1em;
-  background-color: var(--overlay-color);
+  background-color: var(--baby-powder);
   transition: opacity .3s, visibility .3s;
 }
 
@@ -536,11 +536,10 @@ p {
   place-items: center;
   width: 100%;
   min-height: 100vh;
-  background:
-    linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(18, 8, 80, 0.62)),
-    url(/assets/temp/noise.svg);
+  background-color: white;
   /* https://grainy-gradients.vercel.app/ */
 }
+
 
 
 .holding-page-inner-container {
@@ -549,13 +548,16 @@ p {
   text-align: center;
 }
 
-.holding-page-animation {
-  margin-bottom: 1rem;
+.holding-page-logo {
+  
+  width: 10%; 
+  margin: auto;
+  padding-bottom: 10rem;
 }
 
 .holding-page-title {
   font-size: 2rem;
-  color: var(--accent-color);
+  color: black;
 }
 
 .holding-page-copyright {
@@ -718,7 +720,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   }
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-gap: 1rem;
   }
 
