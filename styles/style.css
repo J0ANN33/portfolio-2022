@@ -142,7 +142,7 @@ h1 {
 
 .last-name {
   display: block;
-  background: yellowgreen;
+  background: #f5f5f5;
   line-height: 1;
 }
 
@@ -859,14 +859,14 @@ a.sub-navigation-link:hover {
 
 
   /* Grayscale filter with full-colour on hover and tap */
-  .work-page-grid-item a img {
+  /* .work-page-grid-item a img {
     filter: grayscale(100);
   }
 
   .work-page-grid-item>a:active img,
   .work-page-grid-item>a:hover img {
     filter: grayscale(0);
-  }
+  } */
 
   .about {
     padding: 4rem;
@@ -920,7 +920,7 @@ a.sub-navigation-link:hover {
   .portfolio,
   .project-wrapper {
     padding: 8rem;
-    background: burlywood;
+    background: rgb(251, 249, 247);
   }
 
   /* Project Page Flex Direction on Large Devices */
@@ -974,7 +974,15 @@ a.sub-navigation-link:hover {
 
 /* X-Large devices (large desktops, 1200px and up)*/
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+
+  .hero-headline{
+
+    font-size: 1rem;
+
+  }
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 
