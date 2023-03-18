@@ -323,7 +323,7 @@ p {
   justify-content: center;
   padding: 2rem 2rem;
   text-align: center;
-  border: 5px dotted hotpink;
+  /* border: 5px dotted hotpink; */
 }
 
 .project-hero-wrapper {
@@ -886,7 +886,7 @@ a.sub-navigation-link:hover {
   .footer-item-1 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    background: yellowgreen;
+    /* background: yellowgreen; */
   }
 
   .about-item-2 {
