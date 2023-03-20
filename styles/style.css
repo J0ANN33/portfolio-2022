@@ -80,7 +80,7 @@ html {
   --off-white: #ffffff;
   --baby-powder: #000000;
   --alice-blue: #f0f8ff;
-  --floral-white: #fffaf0;
+  --floral-white: #fffcf6;
   --background-color: #ffffff;
   --alt-background-color: black;
   --text-selection-background-color: #555;
@@ -927,7 +927,7 @@ a.sub-navigation-link:hover {
   .project-wrapper {
     flex-direction: row;
     width: 100%;
-    background: rgb(253, 249, 241);
+    background: rgb(255, 253, 249);
 
   }
 
