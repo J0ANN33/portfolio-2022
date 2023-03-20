@@ -69,21 +69,16 @@ html {
 :root {
   --primary-text-color: #222;
   --accent-color: #5f715a;
-  --overlay-color: #5200FF;
-  --hyperlink-color: rgb(255, 69, 0);
-  --hyperlink-alternate-color: orangered;
+  --overlay-color: #2e9084;
+  --hyperlink-color: rgb(76, 61, 55);
   --hover-color: #111;
   --body-typeface: "Inter", sans-serif;
   --heading-typeface: 'Phudu', serif;
   --project-title-typeface: 'Phudu', serif;
-  --heart-color: darkred;
-  --off-white: #f8f8ff;
-  --isabelline: #f4f0ec;
-  --baby-powder: #fefefa;
+  --off-white: #ffffff;
   --alice-blue: #f0f8ff;
-  --alabaster: #f2f0e6;
-  --floral-white: #fffaf0;
-  --background-color: #f5f5f5;
+  --floral-white: #fffcf6;
+  --background-color: #ffffff;
   --alt-background-color: black;
   --text-selection-background-color: #555;
 }
@@ -106,11 +101,12 @@ body {
 img,
 svg {
   max-width: 100%;
-  height: auto;
-  vertical-align: top;
+  height: auto; 
+  /* vertical-align: top; */
   /* Removes the gap/space in inline elements for text descenders. */
-  object-fit: contain;
+  /* object-fit: contain; */
   /* This is optional. Also try cover or leave out entirely. */
+
 
 }
 
@@ -136,13 +132,13 @@ h1 {
 
 .word-mark {
   font-size: 3rem;
-  background: lightblue;
+  background: #ffffff; 
   line-height: 1;
 }
 
 .last-name {
   display: block;
-  background: yellowgreen;
+  background: #ffffff;
   line-height: 1;
 }
 
@@ -150,8 +146,9 @@ h1 {
   font-size: 3rem;
   font-family: var(--project-title-typeface);
   margin-bottom: 1rem;
-  color: var(--baby-powder);
-  background: gold;
+  color: black;
+  line-height: 1;
+  /* background: gold; */
 }
 
 .overlay-title {
@@ -172,7 +169,7 @@ h3 {
 }
 
 h4 {
-  color: var(--baby-powder);
+  color: black;
 }
 
 /* Hyperlink Styles */
@@ -250,9 +247,6 @@ p {
   margin-bottom: 0;
 }
 
-.heart {
-  color: var(--heart-color);
-}
 
 .award-item {
   line-height: 1.3;
@@ -271,7 +265,7 @@ p {
 
 .project-info {
 
-  background: lightsalmon;
+  /* background: lightsalmon; */
   padding: 1rem;
   width: 25%;
 
@@ -280,8 +274,8 @@ p {
 .project-description {
   font-size: 1.25rem;
   line-height: 1.3;
-  margin-bottom: 1rem;
-  background: lightseagreen;
+  margin-bottom: 3rem;
+  /* background: lightseagreen; */
 }
 
 
@@ -323,11 +317,11 @@ p {
   justify-content: center;
   padding: 2rem 2rem;
   text-align: center;
-  border: 5px dotted hotpink;
+  /* border: 5px dotted hotpink; */
 }
 
 .project-hero-wrapper {
-  background: lemonchiffon;
+  /* background: lemonchiffon; */
   padding: 1rem;
   display: flex;
   flex-direction: row;
@@ -416,7 +410,7 @@ p {
   align-items: center;
   flex-direction: column;
   padding: 1em;
-  background-color: var(--baby-powder);
+  background-color: black;
   transition: opacity .3s, visibility .3s;
 }
 
@@ -442,7 +436,7 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  background: #f5f5f5;
+  background: #ffffff;
   padding: 1rem;
   flex: 1;
 }
@@ -483,7 +477,7 @@ p {
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 40vh;
-  background: #f5f5f5;
+  background: #ffffff;
   padding: 1rem;
 }
 
@@ -514,14 +508,14 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: white
+  background: rgb(255, 255, 255)
 }
 
 /* Sidebar */
 .project-aside {
   width: 100%;
   color: rgb(22, 20, 20);
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -568,7 +562,7 @@ p {
 
 .project-details {
   width: 100%;
-  background: pink;
+  /* background: pink; */
   padding: 1rem;
 }
 
@@ -591,7 +585,7 @@ p {
   place-items: center;
   width: 100%;
   min-height: 100vh;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   /* https://grainy-gradients.vercel.app/ */
 }
 
@@ -605,9 +599,9 @@ p {
 
 .holding-page-logo {
 
-  width: 10%;
+  width: 60%;
   margin: auto;
-  padding-bottom: 10rem;
+  padding-bottom: 2rem;
 }
 
 .holding-page-title {
@@ -617,7 +611,7 @@ p {
 
 .holding-page-copyright {
   font-size: .8rem;
-  color: var(--off-white);
+  color: var(--accent-color);
 }
 
 
@@ -793,8 +787,8 @@ a.sub-navigation-link:hover {
   }
 
   .hero-logo {
-    width: 40%;
-    margin-bottom: 2rem;
+    width: 50%;
+    margin-bottom: 12rem;
   }
 
   .hero {
@@ -817,39 +811,39 @@ a.sub-navigation-link:hover {
   .top-wide-project {
     grid-column: 1 / 7;
     grid-row: 1 / 2;
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
   }
 
   .first-small-square-project {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
-    border: 2px solid rgb(137, 62, 35);
+    /* border: 2px solid rgb(137, 62, 35); */
 
   }
 
   .second-small-square-project {
     grid-column: 3 / 5;
     grid-row: 2 / 3;
-    border: 2px solid rgb(56, 130, 186);
+    /* border: 2px solid rgb(56, 130, 186); */
 
   }
 
   .third-small-square-project {
     grid-column: 5 / 7;
     grid-row: 2 / 3;
-    border: 2px solid rgb(147, 32, 80);
+    /* border: 2px solid rgb(147, 32, 80); */
   }
 
   .first-medium-square-project {
     grid-column: 1 / 4;
     grid-row: 3 / 4;
-    border: 2px solid rgb(236, 11, 104);
+    /* border: 2px solid rgb(236, 11, 104); */
   }
 
   .second-medium-square-project {
     grid-column: 4 / 7;
     grid-row: 3 / 4;
-    border: 2px solid rgb(35, 147, 7);
+    /* border: 2px solid rgb(35, 147, 7); */
 
   }
 
@@ -859,14 +853,14 @@ a.sub-navigation-link:hover {
 
 
   /* Grayscale filter with full-colour on hover and tap */
-  .work-page-grid-item a img {
+  /* .work-page-grid-item a img {
     filter: grayscale(100);
   }
 
   .work-page-grid-item>a:active img,
   .work-page-grid-item>a:hover img {
     filter: grayscale(0);
-  }
+  } */
 
   .about {
     padding: 4rem;
@@ -886,7 +880,7 @@ a.sub-navigation-link:hover {
   .footer-item-1 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    background: yellowgreen;
+    /* background: yellowgreen; */
   }
 
   .about-item-2 {
@@ -897,7 +891,7 @@ a.sub-navigation-link:hover {
   .footer-item-2 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    background: lightseagreen;
+    /* background: lightseagreen; */
 
   }
 
@@ -920,14 +914,14 @@ a.sub-navigation-link:hover {
   .portfolio,
   .project-wrapper {
     padding: 8rem;
-    background: burlywood;
+    background: rgb(255, 255, 255);
   }
 
   /* Project Page Flex Direction on Large Devices */
   .project-wrapper {
     flex-direction: row;
     width: 100%;
-    background: goldenrod;
+    background: rgb(15, 11, 11);
 
   }
 
@@ -947,13 +941,13 @@ a.sub-navigation-link:hover {
   }
 
   .project-image {
-    background: lavenderblush;
+    /* background: lavenderblush; */
     padding: 1rem;
   }
 
   .project-image-container {
     flex-direction: row;
-    background: lightslategray;
+    /* background: lightslategray; */
     padding: 1rem;
   }
 
@@ -974,7 +968,15 @@ a.sub-navigation-link:hover {
 
 /* X-Large devices (large desktops, 1200px and up)*/
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+
+  .hero-headline{
+
+    font-size: 1rem;
+
+  }
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 
