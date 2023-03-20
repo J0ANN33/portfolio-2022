@@ -70,18 +70,16 @@ html {
   --primary-text-color: #222;
   --accent-color: #5f715a;
   --overlay-color: #5200FF;
-  --hyperlink-color: rgb(255, 69, 0);
-  --hyperlink-alternate-color: orangered;
+  --hyperlink-color: rgb(76, 61, 55);
+  --hyperlink-alternate-color: rgb(122, 115, 112);
   --hover-color: #111;
   --body-typeface: "Inter", sans-serif;
   --heading-typeface: 'Phudu', serif;
   --project-title-typeface: 'Phudu', serif;
   --heart-color: darkred;
   --off-white: #ffffff;
-  --isabelline: #f4f0ec;
   --baby-powder: #000000;
   --alice-blue: #f0f8ff;
-  --alabaster: #f2f0e6;
   --floral-white: #fffaf0;
   --background-color: #ffffff;
   --alt-background-color: black;
@@ -485,7 +483,7 @@ p {
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 40vh;
-  background: #f5f5f5;
+  background: #ffffff;
   padding: 1rem;
 }
 
@@ -516,14 +514,14 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: white
+  background: rgb(255, 255, 255)
 }
 
 /* Sidebar */
 .project-aside {
   width: 100%;
   color: rgb(22, 20, 20);
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -570,7 +568,7 @@ p {
 
 .project-details {
   width: 100%;
-  background: pink;
+  /* background: pink; */
   padding: 1rem;
 }
 
@@ -593,7 +591,7 @@ p {
   place-items: center;
   width: 100%;
   min-height: 100vh;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   /* https://grainy-gradients.vercel.app/ */
 }
 
@@ -609,7 +607,7 @@ p {
 
   width: 10%;
   margin: auto;
-  padding-bottom: 10rem;
+  padding-bottom: 20rem;
 }
 
 .holding-page-title {
@@ -619,7 +617,7 @@ p {
 
 .holding-page-copyright {
   font-size: .8rem;
-  color: var(--off-white);
+  color: var(--accent-color);
 }
 
 
@@ -819,39 +817,39 @@ a.sub-navigation-link:hover {
   .top-wide-project {
     grid-column: 1 / 7;
     grid-row: 1 / 2;
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
   }
 
   .first-small-square-project {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
-    border: 2px solid rgb(137, 62, 35);
+    /* border: 2px solid rgb(137, 62, 35); */
 
   }
 
   .second-small-square-project {
     grid-column: 3 / 5;
     grid-row: 2 / 3;
-    border: 2px solid rgb(56, 130, 186);
+    /* border: 2px solid rgb(56, 130, 186); */
 
   }
 
   .third-small-square-project {
     grid-column: 5 / 7;
     grid-row: 2 / 3;
-    border: 2px solid rgb(147, 32, 80);
+    /* border: 2px solid rgb(147, 32, 80); */
   }
 
   .first-medium-square-project {
     grid-column: 1 / 4;
     grid-row: 3 / 4;
-    border: 2px solid rgb(236, 11, 104);
+    /* border: 2px solid rgb(236, 11, 104); */
   }
 
   .second-medium-square-project {
     grid-column: 4 / 7;
     grid-row: 3 / 4;
-    border: 2px solid rgb(35, 147, 7);
+    /* border: 2px solid rgb(35, 147, 7); */
 
   }
 
@@ -922,14 +920,14 @@ a.sub-navigation-link:hover {
   .portfolio,
   .project-wrapper {
     padding: 8rem;
-    background: rgb(251, 249, 247);
+    background: rgb(255, 255, 255);
   }
 
   /* Project Page Flex Direction on Large Devices */
   .project-wrapper {
     flex-direction: row;
     width: 100%;
-    background: goldenrod;
+    background: rgb(253, 249, 241);
 
   }
 
@@ -949,13 +947,13 @@ a.sub-navigation-link:hover {
   }
 
   .project-image {
-    background: lavenderblush;
+    /* background: lavenderblush; */
     padding: 1rem;
   }
 
   .project-image-container {
     flex-direction: row;
-    background: lightslategray;
+    /* background: lightslategray; */
     padding: 1rem;
   }
 
