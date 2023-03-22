@@ -631,8 +631,6 @@ p {
   place-items: center;
 }
 
-.error-page-wrapper {}
-
 .error-page-inner-container {
   text-align: center;
 }
@@ -656,8 +654,6 @@ p {
   place-items: center;
   background: black;
 }
-
-.experiments-page-wrapper {}
 
 .experiments-page-inner-container {
   text-align: center;
@@ -700,8 +696,6 @@ p {
   padding: 1rem;
   text-align: center;
 }
-
-.sub-navigation-item {}
 
 a.sub-navigation-link {
   border: 1px solid var(--accent-color);
